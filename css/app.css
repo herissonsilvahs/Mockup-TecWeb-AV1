@@ -1,0 +1,319 @@
+
+.grid-container { /* Sobrescrevendo valor padrão do framework */
+    max-width: 95rem;
+}
+
+.cabecalho
+{
+    height: 35em;
+    background: url('../Images/mountain.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 35em;
+}
+
+.cabecalho h1, .cabecalho p, .cabecalho li, .cabecalho a
+{
+    font-family: 'Comic Sans MS';
+    color: white;
+}
+
+#cab-logo h1
+{
+    font-size: 35pt;
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+#cab-menu
+{
+    border: 1px solid black;
+}
+
+#cab-menu ul
+{
+    font-size: 130%;
+}
+
+.bottom-cabecalho
+{
+    padding-left: 1em;
+}
+
+.bottom-cabecalho h1
+{
+    font-size: 22pt;
+}
+
+.bottom-cabecalho p
+{
+    font-size: 90%;
+}
+
+.bottom-cabecalho a, .articles a
+{
+    font-size: 13pt;
+    color: white;
+    background-color: black;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#banner div ul .list-slides
+{
+    width: 20em;
+}
+
+.article-content
+{
+    height: 66em;
+    border: 3px dashed black;
+}
+
+.article-content .article1
+{
+    width: 100%;
+    color: black;
+    border: 2px solid red;
+}
+
+.article-content .article2
+{
+    width: 100%;
+    background-color: #990082;
+    border: 2px solid red;
+}
+
+.articles
+{
+    padding-left: 1em;
+    padding-top: 2em;
+    border: 3px solid yellow;
+}
+
+.articles h2
+{
+    font-size: 18pt;
+    font-family: arial black;
+}
+
+.articles p
+{
+    font-size: 80%;
+    font-family: Comic Sans MS;
+    width: 18em;
+}
+
+.article2
+{
+    padding: 2em;
+}
+
+.article2 p
+{
+    color: white;
+    width: 17em;
+    font-size: 85%;
+    font-family: Comic Sans MS;
+}
+
+.article2 div img
+{
+    width: 230px;
+    height: 230px;
+}
+
+/* Medium only */
+@media screen and (min-width: 40em)
+{
+    #cab-logo h1
+    {
+        font-size: 35pt;
+        margin-top: 1em;
+        text-align: left;
+        padding-left: 2em;
+    }
+
+    #cab-menu
+    {
+        border: 1px solid black;
+        padding-top: 3.5em;
+        padding-left: 1em;
+    }
+
+    #cab-menu li
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .bottom-cabecalho
+    {
+        padding-left: 12em;
+    }
+
+    .bottom-cabecalho h1
+    {
+        font-size: 22pt;
+    }
+    
+    .bottom-cabecalho p
+    {
+        font-size: 14pt;
+    }
+    
+    .bottom-cabecalho a, .articles a
+    {
+        font-size: 13pt;
+        color: white;
+        background-color: black;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    #banner div ul .list-slides
+    {
+        width: 40em;
+    }
+
+    .article-content
+    {
+        height: 45em;
+        border: 3px dashed black;
+    }
+
+    .articles
+    {
+        padding-left: 1em;
+        padding-top: 1em;
+        border: 3px solid yellow;
+    }
+
+    .articles h2
+    {
+        font-size: 16pt;
+        font-family: arial black;
+    }
+    
+    .articles p
+    {
+        font-size: 12pt;
+        font-family: Comic Sans MS;
+        width: 22em;
+    }
+
+    .article2 p
+    {
+        color: white;
+        margin-top: 2em;
+        width: 25em;
+        font-size: 15pt;
+        font-family: Comic Sans MS;
+    }
+
+    .article2 div img
+    {
+        width: 234px;
+        height: 234px;
+    }
+}
+
+
+/* Large and up */
+@media screen and (min-width: 64em)
+{
+    #cab-logo h1
+    {
+        float: center;
+        font-size: 22pt;
+        padding-left: 5em;
+    }
+
+    #cab-menu
+    {
+        padding-left: 5em;
+    }
+
+    #cab-menu li
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .bottom-cabecalho
+    {
+        padding-left: 18em;
+    }
+    
+    .bottom-cabecalho h1
+    {
+        font-size: 25pt;
+    }
+    
+    .bottom-cabecalho p
+    {
+        font-size: 16pt;
+    }
+    
+    .bottom-cabecalho a, .articles a
+    {
+        font-size: 13pt;
+        color: white;
+        background-color: black;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    #banner div ul .list-slides
+    {
+        width: 40em;
+    }
+
+    .article-content
+    {
+        height: 40em;
+        border: 3px dashed black;
+    }
+
+    .articles
+    {
+        padding-left: 2em;
+        padding-top: 2em;
+        border: 3px solid yellow;
+    }
+
+    .articles h2
+    {
+        font-size: 18pt;
+        font-family: arial black;
+    }
+    
+    .articles p
+    {
+        font-size: 14pt;
+        font-family: Comic Sans MS;
+        width: 25em;
+    }
+
+    .article2 p
+    {
+        color: white;
+        margin-top: 4em;
+        width: 30em;
+        font-size: 15pt;
+        font-family: Comic Sans MS;
+    }
+
+    .article2 div img
+    {
+        width: 334px;
+        height: 334px;
+    }
+}
