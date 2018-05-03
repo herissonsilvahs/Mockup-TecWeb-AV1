@@ -283,9 +283,14 @@ footer .contact-div span{ margin-left: 40%; }
     }
 
     #top-header #header-menu li
-    {
+    { 
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    #top-header #header-menu li a
+    {
+        font-size: 18pt;
     }
     
     .bottom-header
