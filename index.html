@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html class="no-js" lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Web Site Foundation</title>
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Site Foundation</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
   <div class="grid-container content">
     <!-- Inicio cabecalho -->
-    <header class="cabecalho cab-image grid-x grid-padding-x small-12">
-      <div id="top-cabecalho" class="small-12 grid-x colunm" >
-        <div id="cab-logo" class="small-12 medium-6 colunm">
-          <h1>LOGO</h1>
-        </div>
-        <nav id="cab-menu" class="small-12 medium-6 colunm">
-          <ul class="menu">
-            <a href=""><li>Home</li></a>
-            <a><li>About</li></a>
-            <a href="contact.html"><li>Contact</li></a>
-          </ul>
-        </nav>
-      </div>
+    <header class="header header-image grid-x grid-padding-x small-12">
+        <div id="top-header" class="small-12 grid-x colunm" >
+            <div id="header-logo" class="small-12 medium-6 colunm">
+                <h1>LOGO</h1>
+            </div>
+            <nav id="header-menu" class="medium-6 colunm hide-for-small-only">
+                <ul class="menu">
+                    <a href=""><li>Home</li></a>
+                    <a><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </nav>
 
-      <div class="bottom-cabecalho small-12 colunm">
+            <nav id="small-menu" class="small-12 show-for-small-only">
+                <ul class="vertical menu align-center">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+      <div class="bottom-header small-12 colunm">
         <article id="banner" class="orbit" data-orbit data-timer-delay="6000" data-pause-on-hover="false" data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
           <div class="orbit-wrapper">
             <ul class="orbit-container">

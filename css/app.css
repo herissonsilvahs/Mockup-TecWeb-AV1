@@ -3,7 +3,7 @@
     max-width: 95rem;
 }
 
-.cabecalho
+.header
 {
     height: 35em;
     background: url('../Images/mountain.png');
@@ -12,41 +12,35 @@
     background-size: 100% 35em;
 }
 
-.cabecalho h1, .cabecalho p, .cabecalho li, .cabecalho a
+.header h1, .header p, .header li, .header a
 {
     font-family: 'Comic Sans MS';
     color: white;
 }
 
-#cab-logo h1
+#top-header #header-logo h1
 {
     font-size: 35pt;
     margin-top: 1em;
     text-align: center;
 }
 
-#cab-menu ul
-{
-    margin-left: 5%;
-    font-size: 130%;
-}
-
-.bottom-cabecalho
+.bottom-header
 {
     padding-left: 1em;
 }
 
-.bottom-cabecalho h1
+.bottom-header h1
 {
     font-size: 22pt;
 }
 
-.bottom-cabecalho p
+.bottom-header p
 {
     font-size: 90%;
 }
 
-.bottom-cabecalho a, .articles a
+.bottom-header a, .articles a
 {
     font-size: 13pt;
     color: white;
@@ -128,7 +122,7 @@ footer .contact-div span{ margin-left: 40%; }
 
 @media screen and (min-width: 25em)
 {
-    #cab-menu ul{ margin-left: 20%; }
+    #top-header #header-menu ul{ margin-left: 20%; }
     .articles{ padding-left: 2.5%; padding-right: 2.5%; }
     .article2 #div-img{ padding-left: 40%; }
 
@@ -140,7 +134,7 @@ footer .contact-div span{ margin-left: 40%; }
 
 @media screen and (min-width: 37em)
 {
-    #cab-menu ul{ margin-left: 25%; }
+    #top-header #header-menu ul{ margin-left: 25%; }
     .article2 #div-img{ padding-left: 50%; }
     footer .contact-div h1{ font-size: 20pt; }
     footer .contact-div #div-icons .c-icon{ margin-left: 85px; }
@@ -150,7 +144,7 @@ footer .contact-div span{ margin-left: 40%; }
 /* Medium only */
 @media screen and (min-width: 40em)
 {
-    #cab-logo h1
+    #top-header #header-logo h1
     {
         font-size: 35pt;
         margin-top: 1em;
@@ -158,34 +152,35 @@ footer .contact-div span{ margin-left: 40%; }
         padding-left: 2em;
     }
 
-    #cab-menu
+    #top-header #header-menu
     {
         padding-top: 3.5em;
         padding-left: 1em;
     }
 
-    #cab-menu li
+    #top-header #header-menu li
     {
         margin-left: 10px;
+        font-size: 130%;
         margin-right: 10px;
     }
 
-    .bottom-cabecalho
+    .bottom-header
     {
         padding-left: 12em;
     }
 
-    .bottom-cabecalho h1
+    .bottom-header h1
     {
         font-size: 22pt;
     }
     
-    .bottom-cabecalho p
+    .bottom-header p
     {
         font-size: 14pt;
     }
     
-    .bottom-cabecalho a, .articles a
+    .bottom-header a, .articles a
     {
         font-size: 13pt;
         color: white;
@@ -252,39 +247,39 @@ footer .contact-div span{ margin-left: 40%; }
 /* Large and up */
 @media screen and (min-width: 64em)
 {
-    #cab-logo h1
+    #top-header #header-logo h1
     {
         font-size: 22pt;
         padding-left: 5em;
     }
 
-    #cab-menu
+    #top-header #top-header #header-menu
     {
         padding-left: 5em;
     }
 
-    #cab-menu li
+    #top-header #header-menu li
     {
         margin-left: 10px;
         margin-right: 10px;
     }
     
-    .bottom-cabecalho
+    .bottom-header
     {
         padding-left: 18em;
     }
     
-    .bottom-cabecalho h1
+    .bottom-header h1
     {
         font-size: 25pt;
     }
     
-    .bottom-cabecalho p
+    .bottom-header p
     {
         font-size: 16pt;
     }
     
-    .bottom-cabecalho a, .articles a
+    .bottom-header a, .articles a
     {
         font-size: 13pt;
         color: white;
