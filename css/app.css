@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Muli|Fjalla+One|Bree+Serif');
+
 .grid-container { /* Sobrescrevendo valor padrão do framework */
     max-width: 95rem;
 }
@@ -14,15 +16,17 @@
 
 #top-header #header-logo h1
 {
-    font-size: 35pt;
+    font-size: 38pt;
     margin-top: 1em;
     text-align: center;
     color: white;
+    text-shadow: 1px 4px black;
+    font-family: 'Bree Serif';
 }
 
 #top-header #small-menu{ background-color: rgb(50,50,50); height: 7em;}
 
-#top-header #small-menu li a{ color: white; }
+#top-header #small-menu li a{ color: white; font-family: 'Bree Serif';}
 
 #top-header #small-menu ul li:hover{ background-color: white; }
 
@@ -30,19 +34,24 @@
 
 .bottom-header
 {
-    padding-left: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .bottom-header h1
 {
     font-size: 22pt;
     color: white;
+    text-shadow: 1px 2px black;
+    font-family: 'Fjalla One';
 }
 
 .bottom-header p
 {
     font-size: 90%;
     color: white;
+    font-family: Muli;
+
 }
 
 .bottom-header a, .articles a
@@ -54,6 +63,12 @@
     padding-right: 17px;
     padding-bottom: 2px;
     padding-top: 2px;
+    box-shadow: 0px 1px 3px black;
+}
+
+.bottom-header a:hover, .articles a:hover
+{
+    background-color: #2D2D2D;
 }
 
 #banner div ul .list-slides
@@ -88,13 +103,14 @@
 .articles h2
 {
     font-size: 18pt;
-    font-family: arial black;
+    font-family: 'Fjalla One';
+    text-shadow: 1px 2px rgba(0,0,0,0.8);
 }
 
 .articles p
 {
     font-size: 80%;
-    font-family: Comic Sans MS;
+    font-family: Muli;
     width: 100%;
     
 }
@@ -109,7 +125,7 @@
     color: white;
     width: 17em;
     font-size: 85%;
-    font-family: Comic Sans MS;
+    font-family: Muli;
 }
 
 .article2 div img
@@ -118,7 +134,7 @@
     height: 230px;
 }
 
-footer .contact-div h1{ font-size: 16pt; }
+footer .contact-div h1{ font-size: 16pt; font-family: 'Fjalla One'; }
 footer .contact-div{
     margin-top: 20px;
 }
@@ -163,17 +179,22 @@ footer .contact-div span{ margin-left: 40%; }
         padding-left: 1em;
     }
 
-    #top-header #header-menu li
+    #top-header #header-menu li a
     {
         margin-left: 10px;
         font-size: 130%;
         margin-right: 10px;
         color: white;
+        text-shadow: 1px 2px black;
+        font-family: 'Bree Serif';
     }
+
+    #top-header #header-menu ul li:hover{ box-shadow: 1px 2px black; }
 
     .bottom-header
     {
         padding-left: 12em;
+        padding-right: 0;
     }
 
     .bottom-header h1
@@ -193,8 +214,8 @@ footer .contact-div span{ margin-left: 40%; }
         background-color: black;
         padding-left: 17px;
         padding-right: 17px;
-        padding-bottom: 2px;
-        padding-top: 2px;
+        padding-bottom: 3px;
+        padding-top: 3px;
     }
 
     #banner div ul .list-slides
@@ -216,13 +237,11 @@ footer .contact-div span{ margin-left: 40%; }
     .articles h2
     {
         font-size: 16pt;
-        font-family: arial black;
     }
     
     .articles p
     {
         font-size: 12pt;
-        font-family: Comic Sans MS;
         width: 100%;
     }
 
@@ -232,7 +251,6 @@ footer .contact-div span{ margin-left: 40%; }
         margin-top: 2em;
         width: 25em;
         font-size: 15pt;
-        font-family: Comic Sans MS;
     }
 
     .article2 #div-img{ padding-left: 0; }
@@ -255,8 +273,8 @@ footer .contact-div span{ margin-left: 40%; }
 {
     #top-header #header-logo h1
     {
-        font-size: 22pt;
-        padding-left: 5em;
+        font-size: 34pt;
+        padding-left: 2em;
     }
 
     #top-header #top-header #header-menu
@@ -315,13 +333,11 @@ footer .contact-div span{ margin-left: 40%; }
     .articles h2
     {
         font-size: 18pt;
-        font-family: arial black;
     }
     
     .articles p
     {
         font-size: 14pt;
-        font-family: Comic Sans MS;
         width: 100%;
     }
 
@@ -331,7 +347,6 @@ footer .contact-div span{ margin-left: 40%; }
         margin-top: 4em;
         width: 30em;
         font-size: 15pt;
-        font-family: Comic Sans MS;
     }
 
     .article2 div img
