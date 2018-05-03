@@ -12,18 +12,21 @@
     background-size: 100% 35em;
 }
 
-.header h1, .header p, .header li, .header a
-{
-    font-family: 'Comic Sans MS';
-    color: white;
-}
-
 #top-header #header-logo h1
 {
     font-size: 35pt;
     margin-top: 1em;
     text-align: center;
+    color: white;
 }
+
+#top-header #small-menu{ background-color: rgb(50,50,50); height: 7em;}
+
+#top-header #small-menu li a{ color: white; }
+
+#top-header #small-menu ul li:hover{ background-color: white; }
+
+#top-header #small-menu ul li:hover a{ color: black; }
 
 .bottom-header
 {
@@ -33,11 +36,13 @@
 .bottom-header h1
 {
     font-size: 22pt;
+    color: white;
 }
 
 .bottom-header p
 {
     font-size: 90%;
+    color: white;
 }
 
 .bottom-header a, .articles a
@@ -163,6 +168,7 @@ footer .contact-div span{ margin-left: 40%; }
         margin-left: 10px;
         font-size: 130%;
         margin-right: 10px;
+        color: white;
     }
 
     .bottom-header
