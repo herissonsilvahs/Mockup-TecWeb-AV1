@@ -48,7 +48,7 @@
 
 .bottom-header p
 {
-    font-size: 90%;
+    font-size: 11pt;
     color: white;
     font-family: Muli;
 
@@ -109,7 +109,7 @@
 
 .articles p
 {
-    font-size: 80%;
+    font-size: 10pt;
     font-family: Muli;
     width: 100%;
     
@@ -124,7 +124,7 @@
 {
     color: white;
     width: 17em;
-    font-size: 85%;
+    font-size: 12pt;
     font-family: Muli;
 }
 
@@ -145,6 +145,12 @@ footer .contact-div span{ margin-left: 40%; }
 {
     #top-header #header-menu ul{ margin-left: 20%; }
     .articles{ padding-left: 2.5%; padding-right: 2.5%; }
+    .articles h2
+    {
+        font-size: 20pt;
+    }
+    .articles p{ font-size: 12pt; }
+    .article2{ font-size: 16pt; }
     .article2 #div-img{ padding-left: 40%; }
 
     footer .contact-div h1{ font-size: 18pt; }
@@ -155,6 +161,7 @@ footer .contact-div span{ margin-left: 40%; }
 
 @media screen and (min-width: 37em)
 {
+
     #top-header #header-menu ul{ margin-left: 25%; }
     .article2 #div-img{ padding-left: 50%; }
     footer .contact-div h1{ font-size: 20pt; }
